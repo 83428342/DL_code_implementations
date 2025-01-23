@@ -1,9 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import sys
-import os
 
-from ..layers.activation_function import *
+from ..layers.activations import *
 
 def init_network():
     network = {}
