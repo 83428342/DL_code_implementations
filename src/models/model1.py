@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 import os
 
-from layers.activation_function import *
-from data.mnist import load_mnist
+from ..layers.activation_function import *
 
 def init_network():
     network = {}
