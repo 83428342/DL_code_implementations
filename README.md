@@ -19,6 +19,8 @@ src/
 │   └── model1.py      # 3층 layer 정의
 ├── utils/             # 유틸리티 함수 및 클래스
 │   └── __init__.py
+├── __init__.py
+├── LICENSE
 └── README.md         
 ```
 
