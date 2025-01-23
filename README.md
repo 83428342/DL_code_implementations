@@ -13,10 +13,12 @@ src/
 │   ├── __init__.py
 │   └── activations.py # 활성화 함수 정의
 ├── losses/            # 손실 함수 정의 
-│   └── __init__.py
+│   ├──__init__.py
+│   └── loss.py
 ├── models/            # 모델 아키텍처 정의
 │   ├── __init__.py
-│   └── model1.py      # 3층 layer 정의
+│   ├── model1.py      # 3층 layer 정의
+│   └── model2.py
 ├── utils/             # 유틸리티 함수 및 클래스
 │   └── __init__.py
 ├── __init__.py
