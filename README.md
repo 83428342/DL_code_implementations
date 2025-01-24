@@ -12,13 +12,13 @@ src/
 ├── layers/            # 모델 구성 레이어 정의
 │   ├── __init__.py
 │   └── activations.py # 활성화 함수 정의
-├── losses/            # 손실 함수 정의 
+├── losses/            # 손실 함수 관련 코드
 │   ├──__init__.py
-│   └── loss.py
+│   └── loss.py        # 손실 함수 정의
 ├── models/            # 모델 아키텍처 정의
 │   ├── __init__.py
 │   ├── model1.py      # 3층 layer 정의
-│   └── model2.py
+│   └── model2.py      # MNIST ANN 정의
 ├── utils/             # 유틸리티 함수 및 클래스
 │   └── __init__.py
 ├── __init__.py
